@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Drowsiness Detection API</h1>
+        <br>
+        <form action='/predict' method="POST">
+            AVG EAR: <input type='text' name='AVG_EAR'><br><br>
+            Mouth Ratio: <input type='text' name='mouth_ratio'><br><br>
+            Class: {{result}}<br><br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
